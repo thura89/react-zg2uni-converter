@@ -26,15 +26,15 @@ import { zg2uni,uni2zg } from "./Rabbit";
         return ( 
             <div className="container">
                 <div className="rabbitholder">
-                    <h2 className="mt-5">yathar Converter</h2>
-                    <h3>For ToneChan, Honey, Sammy</h3>
+                    <h1 className="mt-5 text-white">yathar Converter</h1>
+                    <h2 className="text-white">For ToneChan, Honey, Sammy</h2>
                     <div className="row">
                         <div className="col-md">
-                            <p>Unicode</p>
+                            <h4 className="text-white">Unicode</h4>
                             <textarea ref={unicodeRef} className="unicode" onChange={uniChange} value={unicode}></textarea>
                         </div>
                         <div className="col-md">
-                            <p>ZawGyi</p>
+                            <h4 className="text-white">ZawGyi</h4>
                             <textarea ref={zawgyiRef} className="zawgyi" onChange={zawgyiChange} value={zawgyi}></textarea>
                         </div>
                     </div>
