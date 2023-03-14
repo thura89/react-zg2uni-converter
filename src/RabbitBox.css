@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'zawgyi-oneregular';
+    src: local('zawgyi-oneregular'), 
+         url('./fonts/zawgyi/Zawgyi-One.ttf') format("truetype"),
+         url('./fonts/zawgyi/zawgyi-one-webfont.woff2') format('woff2'),
+         url('./fonts/zawgyi/zawgyi-one-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+}
+
+@font-face {
+    font-family: 'pyidaungsuregular';
+    src: local('pyidaungsuregular'), 
+         url('./fonts/unicode/Myanmar3_MultiOS.ttf') format("truetype"),
+         url('./fonts/unicode/myanmar3_multios-webfont.woff2') format('woff2'),
+         url('./fonts/unicode/myanmar3_multios-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+}
+
+.rabbitholder{
+    color: red;
+}
+.rabbitholder textarea{
+    width: 100%;
+    height: 300px;
+}
+.zawgyi{
+    font-family: "zawgyi-oneregular";
+}
+.unicode{
+    font-family: "pyidaungsuregular";
+}
