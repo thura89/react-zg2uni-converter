@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import RabbitBox from './RabbitBox'
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import RabbitBox from "./RabbitBox";
 
 function App() {
   return (
